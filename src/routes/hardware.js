@@ -35,7 +35,7 @@ router.get("/update", async (req, res) => {
   res.json({
     type: "esp32-fota-http",
     version: "1.0.4",
-    url: "http://192.168.178.121:8080/api/hardware/download",
+    url: "https://backend.nexaharvest.com/api/hardware/download",
   });
 });
 router.get("/download", async (req, res) => {
